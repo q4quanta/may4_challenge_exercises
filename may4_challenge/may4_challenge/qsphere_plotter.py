@@ -157,7 +157,7 @@ def plot_state_qsphere(rho, figsize=None, ax=None, show_state_labels=False,
                           'plot_state_qsphere. To install, run "pip install seaborn".')
     rho = _validate_input_state(rho)
     if figsize is None:
-        figsize = (7, 7)
+        figsize = (5, 5)
     num = int(np.log2(len(rho)))
 
     # get the eigenvectors and eigenvalues
